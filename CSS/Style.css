@@ -1,0 +1,67 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+img{
+    display: inline-block;
+    padding: 25px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+/* common css end */
+
+/* nav section css start */
+nav{
+    background-color: #02918c;
+    text-align: justify;
+}
+
+nav div.row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 15%;
+}
+
+nav div.menu{
+    width: 75%;
+}
+
+nav div .menu ul{
+    justify-content: flex-end;
+}
+
+nav .menu ul li a{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: 0.8s;
+}
+nav .menu ul li a:hover,
+nav .menu ul li a.active{
+    background: yellow;
+    color: black;
+}
+/* nav section css end */
